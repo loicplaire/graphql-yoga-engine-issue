@@ -1,0 +1,4 @@
+# @cacheControl throws an error here
+type Query @cacheControl(maxAge: 60) {
+  hello(name: String): String!
+}
